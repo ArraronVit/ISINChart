@@ -13,9 +13,37 @@
 		D82031FD23DF1A080032C1C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82031FB23DF1A080032C1C5 /* Main.storyboard */; };
 		D82031FF23DF1A0B0032C1C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82031FE23DF1A0B0032C1C5 /* Assets.xcassets */; };
 		D820320223DF1A0B0032C1C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D820320023DF1A0B0032C1C5 /* LaunchScreen.storyboard */; };
+		D820320A23DF1FCA0032C1C5 /* ChartFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D820320923DF1FCA0032C1C5 /* ChartFormatter.swift */; };
+		D820320E23E0AB650032C1C5 /* DataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D820320D23E0AB650032C1C5 /* DataGenerator.swift */; };
+		D820321323E2F16E0032C1C5 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D820321223E2F16E0032C1C5 /* RoundedButton.swift */; };
+		D820321523E302A00032C1C5 /* RoundedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D820321423E302A00032C1C5 /* RoundedLabel.swift */; };
+		D853C94023F0239D00957D10 /* LIneChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D853C93F23F0239D00957D10 /* LIneChartTests.swift */; };
+		D853C94E23F026F000957D10 /* LIneChartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D853C94D23F026F000957D10 /* LIneChartUITests.swift */; };
+		D868FC4B23E442FC0042DA30 /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D868FC4A23E442FC0042DA30 /* Chart.swift */; };
+		F1F59A1590B636E0F4714C79 /* Pods_LIneChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2791500622C371C60905DF89 /* Pods_LIneChart.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D853C94223F0239D00957D10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D82031EA23DF1A080032C1C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D82031F123DF1A080032C1C5;
+			remoteInfo = LIneChart;
+		};
+		D853C95023F026F000957D10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D82031EA23DF1A080032C1C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D82031F123DF1A080032C1C5;
+			remoteInfo = LIneChart;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		2791500622C371C60905DF89 /* Pods_LIneChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LIneChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C235320DC2FB0F80DE77741C /* Pods-LIneChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIneChart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LIneChart/Pods-LIneChart.debug.xcconfig"; sourceTree = "<group>"; };
+		D2196C45B548552A8E262E94 /* Pods-LIneChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIneChart.release.xcconfig"; path = "Pods/Target Support Files/Pods-LIneChart/Pods-LIneChart.release.xcconfig"; sourceTree = "<group>"; };
 		D82031F223DF1A080032C1C5 /* LIneChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LIneChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82031F523DF1A080032C1C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D82031F723DF1A080032C1C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,10 +52,36 @@
 		D82031FE23DF1A0B0032C1C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D820320123DF1A0B0032C1C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D820320323DF1A0B0032C1C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D820320923DF1FCA0032C1C5 /* ChartFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartFormatter.swift; sourceTree = "<group>"; };
+		D820320D23E0AB650032C1C5 /* DataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataGenerator.swift; sourceTree = "<group>"; };
+		D820321223E2F16E0032C1C5 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		D820321423E302A00032C1C5 /* RoundedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedLabel.swift; sourceTree = "<group>"; };
+		D853C93D23F0239D00957D10 /* LIneChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIneChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D853C93F23F0239D00957D10 /* LIneChartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIneChartTests.swift; sourceTree = "<group>"; };
+		D853C94123F0239D00957D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D853C94B23F026F000957D10 /* LIneChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIneChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D853C94D23F026F000957D10 /* LIneChartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIneChartUITests.swift; sourceTree = "<group>"; };
+		D853C94F23F026F000957D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D868FC4A23E442FC0042DA30 /* Chart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D82031EF23DF1A080032C1C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F59A1590B636E0F4714C79 /* Pods_LIneChart.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D853C93A23F0239D00957D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D853C94823F026F000957D10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,11 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B9B9691E4CEC949A09FCC21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2791500622C371C60905DF89 /* Pods_LIneChart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D82031E923DF1A080032C1C5 = {
 			isa = PBXGroup;
 			children = (
 				D82031F423DF1A080032C1C5 /* LIneChart */,
+				D853C93E23F0239D00957D10 /* LIneChartTests */,
+				D853C94C23F026F000957D10 /* LIneChartUITests */,
 				D82031F323DF1A080032C1C5 /* Products */,
+				E0FB0ADD1CC013F516EAC151 /* Pods */,
+				0B9B9691E4CEC949A09FCC21 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				D82031F223DF1A080032C1C5 /* LIneChart.app */,
+				D853C93D23F0239D00957D10 /* LIneChartTests.xctest */,
+				D853C94B23F026F000957D10 /* LIneChartUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +124,87 @@
 		D82031F423DF1A080032C1C5 /* LIneChart */ = {
 			isa = PBXGroup;
 			children = (
-				D82031F523DF1A080032C1C5 /* AppDelegate.swift */,
-				D82031F723DF1A080032C1C5 /* SceneDelegate.swift */,
-				D82031F923DF1A080032C1C5 /* ViewController.swift */,
-				D82031FB23DF1A080032C1C5 /* Main.storyboard */,
+				D853C93223F0204200957D10 /* Delegates */,
+				D853C93323F0206F00957D10 /* ViewControllers */,
+				D853C93423F0209A00957D10 /* Storyboards */,
+				D853C93523F020D100957D10 /* UIClasses */,
+				D853C93623F0214600957D10 /* DataClasses+ ChartSetup */,
 				D82031FE23DF1A0B0032C1C5 /* Assets.xcassets */,
-				D820320023DF1A0B0032C1C5 /* LaunchScreen.storyboard */,
 				D820320323DF1A0B0032C1C5 /* Info.plist */,
 			);
 			path = LIneChart;
+			sourceTree = "<group>";
+		};
+		D853C93223F0204200957D10 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				D82031F523DF1A080032C1C5 /* AppDelegate.swift */,
+				D82031F723DF1A080032C1C5 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		D853C93323F0206F00957D10 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D82031F923DF1A080032C1C5 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D853C93423F0209A00957D10 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D820320023DF1A0B0032C1C5 /* LaunchScreen.storyboard */,
+				D82031FB23DF1A080032C1C5 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D853C93523F020D100957D10 /* UIClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D820321223E2F16E0032C1C5 /* RoundedButton.swift */,
+				D820321423E302A00032C1C5 /* RoundedLabel.swift */,
+			);
+			path = UIClasses;
+			sourceTree = "<group>";
+		};
+		D853C93623F0214600957D10 /* DataClasses+ ChartSetup */ = {
+			isa = PBXGroup;
+			children = (
+				D820320D23E0AB650032C1C5 /* DataGenerator.swift */,
+				D868FC4A23E442FC0042DA30 /* Chart.swift */,
+				D820320923DF1FCA0032C1C5 /* ChartFormatter.swift */,
+			);
+			path = "DataClasses+ ChartSetup";
+			sourceTree = "<group>";
+		};
+		D853C93E23F0239D00957D10 /* LIneChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				D853C93F23F0239D00957D10 /* LIneChartTests.swift */,
+				D853C94123F0239D00957D10 /* Info.plist */,
+			);
+			path = LIneChartTests;
+			sourceTree = "<group>";
+		};
+		D853C94C23F026F000957D10 /* LIneChartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D853C94D23F026F000957D10 /* LIneChartUITests.swift */,
+				D853C94F23F026F000957D10 /* Info.plist */,
+			);
+			path = LIneChartUITests;
+			sourceTree = "<group>";
+		};
+		E0FB0ADD1CC013F516EAC151 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C235320DC2FB0F80DE77741C /* Pods-LIneChart.debug.xcconfig */,
+				D2196C45B548552A8E262E94 /* Pods-LIneChart.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D820320623DF1A0B0032C1C5 /* Build configuration list for PBXNativeTarget "LIneChart" */;
 			buildPhases = (
+				5E8CB4ED88A89E92274DD9BB /* [CP] Check Pods Manifest.lock */,
 				D82031EE23DF1A080032C1C5 /* Sources */,
 				D82031EF23DF1A080032C1C5 /* Frameworks */,
 				D82031F023DF1A080032C1C5 /* Resources */,
+				5F78A81E3977B8E9F2849773 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -86,6 +228,42 @@
 			productName = LIneChart;
 			productReference = D82031F223DF1A080032C1C5 /* LIneChart.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D853C93C23F0239D00957D10 /* LIneChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D853C94423F0239E00957D10 /* Build configuration list for PBXNativeTarget "LIneChartTests" */;
+			buildPhases = (
+				D853C93923F0239D00957D10 /* Sources */,
+				D853C93A23F0239D00957D10 /* Frameworks */,
+				D853C93B23F0239D00957D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D853C94323F0239D00957D10 /* PBXTargetDependency */,
+			);
+			name = LIneChartTests;
+			productName = LIneChartTests;
+			productReference = D853C93D23F0239D00957D10 /* LIneChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D853C94A23F026F000957D10 /* LIneChartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D853C95223F026F000957D10 /* Build configuration list for PBXNativeTarget "LIneChartUITests" */;
+			buildPhases = (
+				D853C94723F026F000957D10 /* Sources */,
+				D853C94823F026F000957D10 /* Frameworks */,
+				D853C94923F026F000957D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D853C95123F026F000957D10 /* PBXTargetDependency */,
+			);
+			name = LIneChartUITests;
+			productName = LIneChartUITests;
+			productReference = D853C94B23F026F000957D10 /* LIneChartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +277,14 @@
 				TargetAttributes = {
 					D82031F123DF1A080032C1C5 = {
 						CreatedOnToolsVersion = 11.3.1;
+					};
+					D853C93C23F0239D00957D10 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D82031F123DF1A080032C1C5;
+					};
+					D853C94A23F026F000957D10 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D82031F123DF1A080032C1C5;
 					};
 				};
 			};
@@ -116,6 +302,8 @@
 			projectRoot = "";
 			targets = (
 				D82031F123DF1A080032C1C5 /* LIneChart */,
+				D853C93C23F0239D00957D10 /* LIneChartTests */,
+				D853C94A23F026F000957D10 /* LIneChartUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -131,20 +319,107 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D853C93B23F0239D00957D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D853C94923F026F000957D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E8CB4ED88A89E92274DD9BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LIneChart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F78A81E3977B8E9F2849773 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LIneChart/Pods-LIneChart-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LIneChart/Pods-LIneChart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D82031EE23DF1A080032C1C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D868FC4B23E442FC0042DA30 /* Chart.swift in Sources */,
+				D820321523E302A00032C1C5 /* RoundedLabel.swift in Sources */,
 				D82031FA23DF1A080032C1C5 /* ViewController.swift in Sources */,
+				D820321323E2F16E0032C1C5 /* RoundedButton.swift in Sources */,
+				D820320A23DF1FCA0032C1C5 /* ChartFormatter.swift in Sources */,
+				D820320E23E0AB650032C1C5 /* DataGenerator.swift in Sources */,
 				D82031F623DF1A080032C1C5 /* AppDelegate.swift in Sources */,
 				D82031F823DF1A080032C1C5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D853C93923F0239D00957D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D853C94023F0239D00957D10 /* LIneChartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D853C94723F026F000957D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D853C94E23F026F000957D10 /* LIneChartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D853C94323F0239D00957D10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D82031F123DF1A080032C1C5 /* LIneChart */;
+			targetProxy = D853C94223F0239D00957D10 /* PBXContainerItemProxy */;
+		};
+		D853C95123F026F000957D10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D82031F123DF1A080032C1C5 /* LIneChart */;
+			targetProxy = D853C95023F026F000957D10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D82031FB23DF1A080032C1C5 /* Main.storyboard */ = {
@@ -282,6 +557,7 @@
 		};
 		D820320723DF1A0B0032C1C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C235320DC2FB0F80DE77741C /* Pods-LIneChart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +576,7 @@
 		};
 		D820320823DF1A0B0032C1C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2196C45B548552A8E262E94 /* Pods-LIneChart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -313,6 +590,84 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D853C94523F0239E00957D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9A6LT55JPP;
+				INFOPLIST_FILE = LIneChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kaban.LIneChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LIneChart.app/LIneChart";
+			};
+			name = Debug;
+		};
+		D853C94623F0239E00957D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9A6LT55JPP;
+				INFOPLIST_FILE = LIneChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kaban.LIneChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LIneChart.app/LIneChart";
+			};
+			name = Release;
+		};
+		D853C95323F026F000957D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9A6LT55JPP;
+				INFOPLIST_FILE = LIneChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kaban.LIneChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LIneChart;
+			};
+			name = Debug;
+		};
+		D853C95423F026F000957D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9A6LT55JPP;
+				INFOPLIST_FILE = LIneChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kaban.LIneChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LIneChart;
 			};
 			name = Release;
 		};
@@ -333,6 +688,24 @@
 			buildConfigurations = (
 				D820320723DF1A0B0032C1C5 /* Debug */,
 				D820320823DF1A0B0032C1C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D853C94423F0239E00957D10 /* Build configuration list for PBXNativeTarget "LIneChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D853C94523F0239E00957D10 /* Debug */,
+				D853C94623F0239E00957D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D853C95223F026F000957D10 /* Build configuration list for PBXNativeTarget "LIneChartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D853C95323F026F000957D10 /* Debug */,
+				D853C95423F026F000957D10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
